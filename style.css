@@ -1,0 +1,941 @@
+/* Common CSS */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Titillium Web', sans-serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+/* Header Area Css Start */
+.mid {
+	width: 80%;
+	margin: auto;
+}
+
+.header-area {
+	background: #87509c;
+	padding: 70px 0;
+}
+
+.header-top {
+	
+}
+
+.header-top:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.logo {
+	width: 50%; 
+	float: left;
+}
+
+.logo img{
+	width: 20%;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.menu {
+	width: 50%;
+	float: left;
+}
+.mainmenu i {
+	color: #fff;
+	font-size: 25px;
+	display: none;
+	text-align: right;
+	cursor: pointer;
+}
+
+.menu ul{
+	list-style: none;
+	
+}
+
+.menu ul li {
+	display: inline-block;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 15px;
+	display: inherit;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	margin-top: 25px;
+}
+
+.menu ul li:hover a{
+	background: #643a79;
+	border-radius: 5px; 
+}
+
+
+.header-bottom{
+	margin-top: 150px;
+}
+
+.header-bottom h1{
+	color: #FFFFFF;
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.header-bottom a{
+	color: #FFFFFF;
+	font-size: 16px;
+	text-transform: uppercase;
+	background: #eb7d4b;
+	padding: 20px 30px;
+	text-decoration: none;
+	text-align: center;
+	width: 200px;
+	display: block;
+	margin: auto;
+	transition: 1s;
+	border-radius: 5px;
+}
+
+.header-bottom a:hover{
+	background: #c86a40;
+}
+
+/* Header Area Css End */
+
+
+
+
+
+
+
+/* Services area Start Css */
+
+.service-area{
+	background: #17c2a4;
+	padding: 55px 0;
+}
+
+
+.service-top h2{
+	color: #FFFFFF;
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.service-top hr {
+	width: 100px;
+	height: 3px;
+	margin: 15px auto;
+	background: #14a58c;
+	border: none;
+}
+
+.service-top p{
+	color: #FFFFFF;
+	font-size: 15px;
+	text-align: center;
+}
+
+
+.service-bottom {
+	margin-top: 120px;
+}
+.service-bottom:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.four-colum{
+	width: 25%;
+	float: left;
+}
+.service-bottom .four-colum .service_img{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+}
+.four-colum img {
+	max-height: 100%;
+}
+
+.four-colum h3{
+	color: #FFFFFF;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.four-colum p{
+	color: #FFFFFF;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+/* Services area End Css */
+
+
+
+
+
+
+
+
+/* Team Area Css Start */
+
+
+
+.team-area{
+	background: #e7f1f8;
+	padding: 60px 0;
+}
+
+.team-top h2{
+	color: #3c4761;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+.team-top hr {
+	width: 100px;
+	height: 3px;
+	margin: 15px auto;
+	background: #c8d9e5;
+	border: none;
+}
+
+.team-top p{
+	color: #4e5970;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+.team-bottom:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.team-member{
+	width: 25%;
+	float: left;
+}
+
+
+.team-member img{
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.team-member h3{ 
+	color: #27283d;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.team-member span{
+	color: #30bae7;
+	font-size: 14px;
+	text-align: center;
+	display: block;
+}
+
+.team-member p{ 
+	color: #3c4761;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+.icons{
+	margin-top: 30px;
+}
+.icons:after{ 
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.icons ul{ 
+	list-style: none;
+	display: table;
+	margin: auto;
+}
+
+.icons ul li{
+	float: left;
+}
+
+.icons ul li a{ 
+	color: #3c4761;
+	font-size: 17px;
+	display: block;
+	padding: 0 8px;
+}
+
+
+/* Team Area Css End */
+
+
+
+
+
+
+
+
+
+/* Skrill Area Css Start */
+
+
+
+.skrill-area{ 
+	margin-top: 100px;
+	background-image:url(images/bg.jpg);
+	background-size: cover;
+}
+
+.skrill-top h2{ 
+	color: #3c4761;
+	font-size: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.skrill-top hr {
+	width: 100px;
+	height: 3px;
+	margin: 15px auto;
+	background: #c8d9e5;
+	border: none;
+}
+
+.skrill-top p{ 
+	color: #626a7d;
+	font-size: 17px;
+	text-align: center;
+}
+
+
+.skrill-bottom{ 
+	margin-top: 100px;
+}
+
+.skrill-bottom:after{ 
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.skrill-logo{ 
+	width: 25%;
+	float: left;
+}
+
+.skrill-logo img{ 
+	height: 150px;
+	width: 150px;
+	display: block;
+	margin: auto;
+}
+
+
+.skrill-logo h3{ 
+	color: #3c4761;
+	font-size: 21px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 100px;
+}
+
+
+/* Skrill Area Css End */
+
+
+
+
+
+
+
+
+/* Our Portfolio Area Start */
+
+
+
+
+.our-portfolio {
+	background: #ffdd99;
+	padding: 50px 0;
+}
+
+
+.portfolio-top h2{ 
+	color: #393939;
+	font-size: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+	margin-top: 50px;
+}
+
+.portfolio-top hr{ 
+	width: 100px;
+	height: 4px;
+	margin: 15px auto;
+	background: #e5c37f;
+	border: none;
+}
+
+.portfolio-top p{ 
+	color: #393939;
+	font-size: 17px;
+	text-align: center;
+}
+
+.tebs{
+	
+}
+
+.tebs ul{ 
+	list-style: none;
+	text-align: center;
+}
+.tebs ul li{ 
+	display: inline-block;
+}
+
+.tebs ul li a{ 
+	color: #4b4b4b;
+	font-size: 15px;
+	background: #ebc985;
+	display: block;
+	padding: 5px 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: 30px;
+	margin-left: 6px;
+	border-radius: 3px;
+	transition: 1s;
+}
+
+.tebs ul li:hover a{ 
+	background: #FFFFFF;
+}
+
+.tebs ul .active a{ 
+	background: #FFFFFF;
+}
+
+
+.portfolio-bottom{
+	margin-top: 50px;
+}
+
+.porfolio-image{ 
+	width: 47%;
+	float: left;
+	margin-right: 6%;
+}
+
+.porfolio-image:nth-child(2n){ 
+	margin-right: 0;
+}
+
+.porfolio-image img{ 
+	width: 100%;
+}
+
+.porfolio-image h3{ 
+	color: #393939;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+
+.our-portfolio .button{ 
+	color: #FFFFFF;
+	font-size: 15px;
+	text-transform: uppercase;
+	background: #17c2a4;
+	padding: 17px 25px;
+	font-weight: bold;
+	text-decoration: none;
+	margin: auto;
+	display: table;
+	border-radius: 4px;
+	transition: 1s;
+}
+
+.our-portfolio .button:hover{ 
+	background: #ebc985;
+	color: #000000;
+}
+
+
+
+
+
+/* About Area Css Start */
+
+
+.about-area {
+	background: #d74680;
+	padding: 70px 0;
+	overflow: hidden;
+}
+
+.about-top h2{ 
+	color: #FFFFFF;
+	font-size: 33px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+
+.about-top hr{ 
+	width: 100px;
+	height: 4px;
+	margin: 15px auto;
+	background: #b73c6d;
+	border: none;
+}
+
+.about-top p{ 
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;	
+}
+
+.about-bottom { 
+	margin-top: 50px;
+}
+
+.about-bottom .client{ 
+	width: 47%;
+	float: left;
+	margin-right: 6%;
+}
+
+.about-bottom .client:nth-child(2n){ 
+	margin-right: 0;
+}
+
+
+
+.client-image{ 
+	width: 25%;
+	float: left;
+	margin-right: 5%;
+	overflow: hidden;
+}
+
+.client-image img{ 
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+}
+
+
+.client-content{ 
+	width: 70%;
+	float: left;
+	overflow: hidden;
+}
+
+.client-content p{ 
+	color: #FFFFFF;
+	font-size: 15px;
+	font-style: italic;
+}
+
+.client-content h3{ 
+	color: #FFFFFF;
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+.client-content h4{ 
+	color: #f5bb93;
+	font-size: 16px;
+	text-transform: capitalize;
+	margin-bottom: 100px;
+}
+
+
+/* About Area Css End */
+
+
+
+
+
+
+/* Contact Area Css Start */
+
+
+
+.contact-area{ 
+	background: #3c5499;
+	padding: 50px 0;
+}
+
+
+.contact-top h2{ 
+	color: #FFFFFF;
+	font-size: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+.contact-top hr{ 
+	width: 100px;
+	height: 4px;
+	margin: 15px auto;
+	background: #273a71;
+	border: none;
+}
+
+
+.contact-top p{ 
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+.contact-bottom{ 
+	margin-top: 60px;
+}
+
+
+.container{ 
+	width: 60%;
+}
+
+.contact-bottom input[type="text"]{ 
+	margin-right: 4%;
+	float: left;
+	
+}
+
+
+.contact-bottom input[type="text"],
+.contact-bottom input[type="email"]{ 
+	width: 48%;
+	display: block;
+	background: #273a71;
+	border: none;
+	color: #FFFFFF;
+	padding: 3%;
+	border-radius: 3px;
+}
+
+
+.contact-bottom textarea{ 
+	width: 100%;
+	background: #273a71;
+	border: none;
+	color: #FFFFFF;
+	margin: 20px 0;
+	padding: 3%;
+	min-height: 170px;
+	border-radius: 3px;
+}
+
+
+.contact-bottom input[type="submit"]{ 
+
+	color: #FFFFFF;
+	background: #30bae7;
+	border: none;
+	margin: auto;
+	display: block;
+	padding: 20px 50px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 3px;
+	margin-top: 30px;
+}
+
+
+/* Contact Area Css End */
+
+
+
+
+
+
+
+/********* Responsive CSS *********/
+
+
+@media only screen and (max-width: 991px){
+
+	
+
+}
+
+
+
+@media only screen and (min-width: 767px) and (max-width: 991px){
+	
+.service-bottom .four-colum {
+	width: 50%;
+	margin-bottom: 50px;
+}
+
+.team-member {
+	width: 50%;
+	float: left;
+	margin-bottom: 30px;
+}
+
+
+/* Skrill_area */
+
+.skrill-logo {
+	width: 50%;
+	float: left;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 15px;
+	display: inherit;
+	padding: 10px 12px;
+	text-transform: uppercase;
+	margin-top: 25px;
+}
+
+.menu {
+	width: 60%;
+	margin: auto;
+}
+
+.logo {
+	width: 40%;
+	float: left;
+}
+
+.logo img {
+	width: 30%;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 767px){
+
+/* header_area */
+
+.logo img {
+	width: 60%;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+/* Header */
+.mainmenu i{
+	display: block;
+}
+.menu {
+	position: fixed;
+	background: #fff;
+	top: 0;
+	right: -100%;
+	width: 100%;
+	padding-top: 35px;
+	transition: 1s;
+}
+.menu.menuFromRight {
+	right: 0;
+}
+.menu ul li {
+	display: block;
+}
+.menu ul li a {
+	color: #333;
+	font-size: 13px;
+	display: block;
+}
+.menu ul li a:hover {
+	color: #fff;
+	border-radius: 0;
+}
+.menu i.fa-times {
+	color: #333;
+	position: absolute;
+	top: 16px;
+	right: 30px;
+}
+
+.header-bottom h1 {
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+/* service_area */
+
+.service-top h2 {
+	font-size: 28px;
+}
+.service-bottom {
+	margin-top: 100px;
+}
+.service-bottom .four-colum {
+	width: 100%;
+	float: none;
+	margin-bottom: 50px;
+}
+
+
+
+.about-bottom .client {
+	width: 100%;
+	float: none;
+	margin-right: 0;
+}
+
+
+/* Team_area */
+
+
+.team-top h2{
+	font-size: 25px;
+}
+
+.team-member {
+	width: 100%;
+	float: none;
+	margin-bottom: 40px;
+}
+
+
+/* Skrill_area */
+
+.skrill-logo {
+	width: 100%;
+	float: none;
+}
+
+.skrill-bottom {
+	margin-top: 80px;
+}
+.skrill-top h2{
+	font-size: 30px;
+}
+
+.skrill-top p{
+	font-size: 16px;
+}
+
+/* our_portfolio */
+
+.portfolio-top h2{
+	font-size: 30px;
+}
+
+.portfolio-top p{
+	font-size: 16px;
+}
+
+.porfolio-image {
+	width: 100%;
+	float: none;
+	margin-right: 0%;
+}
+
+/* contact_area */
+
+.contact-bottom input[type="text"], .contact-bottom input[type="email"] {
+	width: 100%;
+	display: block;
+	background: #273a71;
+	border: none;
+	color: #FFFFFF;
+	padding: 6%;
+	border-radius: 3px;
+	margin-bottom: 20px;
+}
+
+
+.contact-bottom input[type="submit"] {
+	color: #FFFFFF;
+	background: #30bae7;
+	border: none;
+	margin: auto;
+	display: block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 3px;
+	margin-top: 30px;
+}
+
+
+}
+
+@media only screen and (max-width: 540px){
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
